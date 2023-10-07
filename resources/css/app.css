@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap");
+
+* {
+    margin: 0;
+    outline: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "REM", sans-serif;
+}
+
+header {
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 15rem;
+}
+
+.header-img {
+    width: 15%!important;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    position: relative;
+    top: 1rem;
+}
+.item-input {
+    border: none; /* Removes the default border */
+    position: relative;
+    top: 2.5rem;
+    border-bottom: 2px solid #727171;
+    height: 30px;
+    width: 350px;
+    font-size: 1.5rem;
+    margin-left: 10rem;
+}
+.error-input {
+    position: relative;
+    top: 40px;
+    left: 15rem;
+    font-size: 1.2rem;
+    width: 30%;
+}
+form {
+    display: flex;
+    margin-left: 5rem;
+}
+
+.filter-item {
+    border: none;
+    margin-top: 6rem;
+    margin-left: 15rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-bottom: 4px dotted rgb(65, 65, 65);
+    width: 40%;
+}
+
+.items-section {
+    font-size: 1.2rem;
+    margin-left: 10rem;
+}
+.item-list {
+    list-style-type: none;
+    margin-top: 3rem;
+    width: 70%;
+}
+.items {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    margin-top: 1rem;
+}
+.action-btns {
+    cursor: pointer;
+    position: relative;
+    bottom: 1rem;
+}
+button {
+    font-size: 1.2rem;
+}
+button:hover {
+    scale: 1.05;
+    transition: all 300ms ease-in-out;
+}
+button:active {
+    scale: 0.9;
+    transition: all 300ms ease-in-out;
+}
+.btn-submit {
+    position: relative;
+    top: 35px;
+    left: 10px;
+    background-color: rgb(25, 25, 25);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.clear,
+.clear-btn {
+    text-align: center;
+    margin: auto;
+}
+
+.edit-mode {
+    color: #ccc;
+}
+
+footer {
+    margin-top: 30rem;
+    text-align: center;
+}
